@@ -10,9 +10,11 @@
   padding: 0;
 }
 body{
-  font-family: sans-serif;
   background-color: #888;
   -webkit-font-smoothing: antialiased;
+}
+.icono {
+ border-radius: 50px;
 }
 #nav-bar{
   position: sticky;
@@ -60,7 +62,9 @@ body{
 .promo-title{
   font-size: 3rem; 
   font-weight: 600;
-   margin-top: 3em;}
+   margin-top: 3em;
+   font-family: 'Spectral', serif;
+  }
 .join-title{
   font-size: 1.44rem;
 }
@@ -86,14 +90,15 @@ body{
   color: #fff; 
   text-decoration: none!important;}
 .img-fluid{
-  margin-top: 2rem;}
+  margin-top: 2rem;
+}
 .bottom-img{
   width: 100%;}
 /* ---------- Services --------- */
 #services{
   padding: 50px 0;}
 .service-img{
-  width: 130px;
+  width: 200px;
    margin-top: 2rem;}
 .services{
   padding: 20px;}
@@ -139,7 +144,7 @@ body{
   margin: 100px 0;
 }
 .testimonials{
-  border-left: 5px solid #12c2e9;
+
    margin: 40px 0;
 }
 .testimonials img{
@@ -148,7 +153,9 @@ body{
   margin: 0 ;}
 .user-details{
   display: inline-block;
-  font-size: 12px;}
+  font-size: 12px;
+  margin: 10px;
+}
 .feedback{
   font-style: italic;}
 /* ----- Footer ------*/
@@ -187,32 +194,22 @@ body{
   margin-right: 1rem;
 }
 #social .social-icons .svg-icons img:hover{
-  transform: scale(1.2);}
-.copyright{
-  padding-top: 2%;
-   font-size: 15px;
-  }
-.copyright a{
-  text-decoration: none;
-  color: #fff;}
-.copyright a:hover{
-  text-decoration: none;
-  color: #12c2e9;}
-
-  #soft{
+  transform: scale(1.2);
+}
+  /* #soft{
     margin: 50px 0;
   }
   .softs{
-    border-left: 5px solid #12c2e9;
-     margin: 70px 0;
+    padding: 10px;
+  
   }
   .softs img{
     height: 100px;
-    
+    width: 150px;
     margin: 0 ;
-  }
+  } */
     .container-2{
-    padding: 40px;
+    padding: 20px;
     }
     .container-1 {
     padding: 30px;
@@ -220,3 +217,48 @@ body{
     .container-3{
       padding-left: 30px;
     }
+    .second {
+      width:1000px;
+      margin: 0 auto;
+    }
+    .second .box {
+      width: 40px;
+      float: left;
+      
+    }
+    .second .box .chart {
+      position: relative;
+      width: 110px;
+      height: 110px;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    .card {
+      border-radius: 10px;
+      box-shadow: 5px 5px 15px #c471ed;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in; 
+      margin-left: 5px;
+      margin-right:5px;
+      margin-top: 30px;
+      padding: 0;
+    }
+    .card:hover{
+      background: #f64f59;
+      color: #fff;
+      border-radius:  10px;
+      border: none;
+      box-shadow: 5px 5px 10px #f64f59;
+    }
+  #profile{
+
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+border: #f64f59;
+}
+/* .img-fluids{
+  margin: 0;
+  width: 180px;
+  height: 180px;
+} */
